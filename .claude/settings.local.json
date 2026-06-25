@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "PowerShell(try { $r = Invoke-WebRequest -Uri \"http://127.0.0.1:3000/\" -UseBasicParsing -TimeoutSec 4; \"127.0.0.1:3000 -> HTTP $\\($r.StatusCode\\) \\(still running\\)\" } catch { \"Not running: $\\($_.Exception.Message\\)\" })"
+    ]
+  }
+}
