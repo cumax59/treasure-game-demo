@@ -71,7 +71,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-amber-50 to-amber-100 flex flex-col items-center justify-center p-8">
       <div className="text-center mb-8">
-        <h1 className="text-4xl mb-4 text-amber-900">🏴‍☠️ Treasure Hunt Game 🏴‍☠️</h1>
+        <h1 className="text-4xl mb-4 text-amber-900">🏴‍☠️ Treasure Game Demo 🏴‍☠️</h1>
         <p className="text-amber-800 mb-4">
           Click on the treasure chests to discover what's inside!
         </p>
